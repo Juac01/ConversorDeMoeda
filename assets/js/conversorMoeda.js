@@ -1,10 +1,8 @@
-$("#moedaentrada").change(function(){
-    if($(this).val()==1){
-        document.getElementById("moedasaida").selectedIndex = 1;
-    } else {
-        document.getElementById("moedasaida").selectedIndex = 0;
-    }
-    alert($(this).val());
+$("#moedaentrada").on("change",function(){
+    //if(this.val()){
+
+    //}
+    alert($("ssss").val());
 });
 
 
@@ -22,6 +20,11 @@ async function converte(){
             cotacao[0][1] = await jsonData ['BRLPEN']['bid'];
 	
 	var moedaEntrada = $('#moedaentrada').val();
+    if(moedaEntrada == 1) {
+        moedaSaida = 2;
+    } else {
+        moedaSaida = 1
+    }
 	var moedaSaida = $('#moedasaida').val();
     var valorEntrada = $('#valorentrada').val();
 	
