@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <link rel="stylesheet" href="./assets/css/conversorMoeda.css">
+    <script src=".//assets/js/conversorMoeda.js"></script>
+</head>
+<body>
+    <img src="assets/imagens/PENBRL.png" alt="">
+    <h1>Conversor de Moeda</h1>
+
+    <h3>Selecione o Pais</h3>
+
+  <form>
+  <label> DE: </label><br>
+      <select id="moedaentrada">
+         <option value="1">Brasil</option>
+         <option value="2">Peru</option>
+      </select>
+  </form>
+
+  <label> PARA: </label><br>
+  <select id="moedasaida">
+      <option value="2">Peru</option>
+      <option value="1">Brasil</option>
+  </select>
+  </form>
+
+        <p>VALOR ENVIO</p>
+        <input type="number" name="valor" id="valorentrada" >    
+        <br>
+        <input type="button" value="click" onclick="converte()">
+
+    </form>
+    <h2 id="resposta"></h2>
+    
+</body>
+</html>
