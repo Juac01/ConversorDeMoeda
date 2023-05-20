@@ -37,7 +37,7 @@ async function converte(){
         imposto = 0.00005;
     }
     valorSaida = valorSaida -(valorSaida * imposto);
-	await $('#resposta').html("Com as taxas aplicadas, incluindo IOF e a conversão da moeda "+moedas[moedaEntrada-1]+" para a moeda "+moedas[moedaSaida-1]+" o valor é: <br> PAYSEND: "+(valorSaida -9).toFixed(2) + "<br> WESTERUNION: "+(valorSaida -9.9).toFixed(2) + "<br> MONEYGRAM: "+(valorSaida -8).toFixed(2) + "<br> SEM BANCOS, APENAS IOF: "+(valorSaida).toFixed(2));
+	await $('#resposta').html("COM AS TAXAS APLICADAS, INCLUINDO IOF E A CONVERSÃO DA MOEDA "+moedas[moedaEntrada-1]+" PARA A MOEDA "+moedas[moedaSaida-1]+" O VALOR É: <br> PAYSEND: "+(valorSaida -9).toFixed(2) + "<br> WESTERNUNION: "+(valorSaida -9.9).toFixed(2) + "<br> MONEYGRAM: "+(valorSaida -8).toFixed(2) + "<br> SEM BANCOS, APENAS IOF: "+(valorSaida).toFixed(2));
 }
 
 
