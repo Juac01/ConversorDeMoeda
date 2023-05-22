@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: rgb(252, 248, 4);
+    color: hsl(0, 0%, 100%);
     text-align: center;
 
 }
