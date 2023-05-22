@@ -41,7 +41,7 @@ async function converte(){
                                 +" para "+moedas[moedaSaida-1]
                                 +" o valor é: <br><br> PAYSEND: "+(valorSaida -9).toFixed(2) 
                                 + "<br> WESTERNUNION: "+(valorSaida -9.9).toFixed(2)
-                                + "<br> MONEYGRAM: "+(valorSaida -9).toFixed(2));
+                                + "<br> MONEYGRAM: "+(valorSaida -8).toFixed(2));
 }
 
 
