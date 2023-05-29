@@ -8,4 +8,15 @@ body {
     text-align: center;
 
 }
- 
+
+a {
+    color: rgb(255, 12, 12);
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
+
+
+
